@@ -21,41 +21,7 @@
 
 <body>
 
-  <header class="header ">
-    <div class="bg-info">
-      <?php
-     #include_once 'assets/templates/header.html';
-      #include_once 'assets/templates/herosection.html';
-      ?>
-    </div>
-  </header>
 
-
-
-  <!-- =========== Main ===========  -->
-<div class="container">
-  <nav class="navbar container-fluid">
-    <ul>
-      <li><a href="assets/forms/form_cliente.php">Formulario do Cliente</li>
-      <li><a href="assets/forms/form_funcionario.php">Formulario do Funcionário</li>
-    </ul>
-  </nav>
-</div>
-
-
-
-
-
-
-
-
-  <footer class="footer bg-warning">
-    <div class="bg-danger">
-      <?php
-      #include_once 'assets/templates/footer.html';
-      ?>
-    </div>
-  </footer>
 
 
   <!-- Bootstrap JS CDN -->
