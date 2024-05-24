@@ -22,32 +22,41 @@
 <body>
     <div class="container mb-5 mt-3">
         <div class="container-fluid">
-            <h1>Formulário do Cliente</h1>
+            <h1>Formulário do Serviço
+                <hr>
+            </h1>
 
 
             <section class="mt-5 pb-4 border-bottom">
-                <div class="h4 pb-2 mb-4">
-                    Dados Pessoais
-                </div>
-                <form action="" method="POST" class="row mt-4">
-                    <div class="col-7 mb-3 ">
-                        <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
-                        <input type="text" class="form-control" id="texto" required>
-                    </div>
+                <form action="" method="POST" class=" mt-4">
 
-                    <div class="col mb-3 ">
-                        <label for="exampleFormControlInput" class="form-label">CPF (apenas números)</label>
-                        <input type="text" class="form-control" id="cpf" onKeyPress="MascaraGenerica(this, 'CPF');" maxlength="14" required>
-                    </div>
+                    <section class="row mb-4">
 
-                    <div class="col mb-3 ">
-                        <label for="exampleFormControlInpu" class="form-label">Telefone (apenas números)</label>
-                        <input type="text" class="form-control" id="telefone" onKeyPress="MascaraGenerica(this, 'TELEFONE');" maxlength="16" required>
-                    </div>
+                        <div class="col-3 mb-3 ">
+                            <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
+                            <input type="text" class="form-control" id="texto" required>
+                        </div>
+
+                        <div class="col-3 mb-3 ">
+                            <label for="exampleFormControlInput1" class="form-label">Cargo</label>
+                            <input type="text" class="form-control" id="texto" required>
+                        </div>
+                        <div class="col-3 mb-3 ">
+                            <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
+                            <input type="text" class="form-control" id="texto" required>
+                        </div>
+
+                        <div class="col-3 mb-3 ">
+                            <label for="exampleFormControlInput1" class="form-label">Cargo</label>
+                            <input type="text" class="form-control" id="texto" required>
+                        </div>
+
+                    </section>
+
                     <div class="col-12 mt-3">
                         <p class="d-inline-flex gap-3">
                             <button class="btn btn-primary" type="submit">Salvar dados</button>
-                            <a class="btn btn-primary" href="../../index.php" role="button">Cancelar</a>
+                            <a class="btn btn-primary" href="../../index.html" role="button">Cancelar</a>
                     </div>
                 </form>
             </section>
