@@ -1,6 +1,3 @@
-/*===================================================*/
-/* -----  ATENÇÃO! NÃO EXCLUA A TABELA PESSOA  ----- */
-/*===================================================*/
 create table tb_pessoa(
 	id_pessoa serial primary key,
 	nome_pessoa varchar(50) not null,
@@ -59,6 +56,7 @@ create table tb_servicos(
 		'Corte de Cabelo e Barba completa)', 35.00, 20
 	);
 
+	update tb_servicos set atv_serv = 'Corte de Cabelo e Barba Completa' where id_serv=3;
 
 /* ===================== AGENDAMENTO ===================== */
 create table tb_agendamento(
@@ -89,3 +87,5 @@ create table tb_agendamento(
 		join tb_servicos on tb_agendamento.serv_agend= tb_servicos.id_serv
 		join tb_clientes on tb_agendamento.clie_agend = tb_clientes.id_clie
 		join tb_funcionarios on tb_agendamento.func_agend = tb_funcionarios.id_func
+	
+		
