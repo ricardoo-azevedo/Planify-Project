@@ -23,19 +23,16 @@ main{
     display:flex;
 }
 
-main .secao-vazia{
-    width:14%;
-}
-
 main .submenu{
+    background:red;
     width:12%;
     height:100%;
     position:fixed;
-    background-color:rgb(50, 50, 241);
 }
 
 main .dash-info{
     width:100%;
+   margin-left:13%;
 }
 
 .col-border{
@@ -55,22 +52,8 @@ text-align: right;
     font-weight: bold;
     
 }
-.grafico{
-    height:485px;
-}
-
-.calendar, .lista-servicos{
-    height:300px;
-}
 
 
-.calendario{
-    margin-bottom:20px;
-}
-
-.card-box{
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-}
 /*
 main .secao-info{
     background:blue;
