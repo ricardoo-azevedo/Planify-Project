@@ -1,0 +1,23 @@
+
+CRIAÇÃO DA TABELA 
+===============================================
+create table tb_agenda(
+	id serial primary key,
+	cliente varchar(50) not null,
+	fone varchar(16) not null,
+	servico varchar(100) not null,	
+	valor decimal(10,2) not null,
+	dia date not null,
+	hora varchar(5) not null,
+	status varchar(15) not null,
+	dt_mat date default now() not null
+);
+
+/*=============		Ações		==============*/	
+select * from tb_agenda;
+
+insert into tb_agenda(
+	cliente, fone, servico, valor, dia, hora, status
+) values (
+	'João Paulo','(00) 0-0000-0000','Barba','35.00','05/06/2024','10:00','Reservado'
+);
