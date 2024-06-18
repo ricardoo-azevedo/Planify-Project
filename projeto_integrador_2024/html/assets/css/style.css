@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+}
+
+.modal{
+    width:300px;
+}
+
+.modal-content{
+    width:300px;
+}
+
+/* main */
+main{
+    display:flex;
+    height:100%;
+}
+
+/* 
+Dashboard
+Agenda
+
+
+*/
+body{
+    height:100vh;
+}
+
+nav.menu-lateral{
+    width:60px;
+    height:100%;
+    padding:40px 0 40px 0px !important;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    box-shadow: 3px 0 0 gray;
+    overflow: hidden;
+    transition: .5s;
+}
+/*
+nav.menu-lateral:hover{
+    width:260px;
+}
+*/
+.btn-expandir a{
+    width:100%;
+    display:flex;
+}
+
+.btn-expandir a .logo{
+    color:white;
+    font-size:40px;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+}
+.btn-expandir a .logo:hover{
+    background-color:gray;
+    border-radius:15px 0px 0px 15px;
+    animation: .2s;
+}
+
+ul{
+    height:100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: 0.2s;
+}
+
+ul li.item-menu:hover{
+    background-color:gray;
+    border-radius:15px 0px 0px 15px;
+    animation: .2s;
+}
+
+ul li.item-menu a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    padding:10px 0 !important;
+    display:flex;
+    margin-bottom:10px;
+    margin-top: 10px;
+    line-height: 40px;
+    justify-content: center;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size:30px;
+}
+
+
+main .dash-info{
+    width:100%;
+    margin-left:70px;
+}
+
+.col-border{
+    border-radius: 25px;
+}
+.col-4 a{
+    text-decoration:none;
+}
+
+.icon-card-dash{
+    display:flex;
+    justify-content: space-between;
+    font-size:35px;
+    font-weight: bold;
+    
+}
+
+.card-box{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.card-dash1 .icon-card-dash .bi{
+    color:rgb(56, 56, 177);
+}
+.card-dash2 .icon-card-dash .bi{
+    color:green;
+}
+.card-dash3 .icon-card-dash .bi{
+    color:brown;
+}
+
